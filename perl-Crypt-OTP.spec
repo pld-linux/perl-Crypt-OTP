@@ -9,7 +9,7 @@ Summary:	Crypt::OTP Perl module - OTP encryption method implementation
 Summary(pl):	Modu³ Perla Crypt::OTP - implementacja kodowania metod± OTP
 Name:		perl-Crypt-OTP
 Version:	2.00
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
