@@ -10,7 +10,8 @@ Summary(pl):	Modu³ Perla Crypt::OTP - implementacja kodowania metod± OTP
 Name:		perl-Crypt-OTP
 Version:	2.00
 Release:	2
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	af841dbb3641f73ee4048b15e6b56197
