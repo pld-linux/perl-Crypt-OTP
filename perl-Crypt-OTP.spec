@@ -31,7 +31,7 @@ if the same pad is used in decryption as was use in encryption.
 Metoda kodowania OTP (One Time Pad - jednorazowa tablica) jest bardzo
 prosta i niemo¿liwa do z³amania bez znajomo¶ci w³a¶ciwego pliku
 tablicy, z któr± wiadomo¶æ jest xorowana. Kodowanie i dekodowanie
-odbywa siê dok³adnie t± sam± metod±, a wiadomo¶æ mo¿e byæ odkowowana
+odbywa siê dok³adnie t± sam± metod±, a wiadomo¶æ mo¿e byæ odkodowana
 poprawnie tylko przy u¿yciu tej samej tablicy, która by³a u¿ywana do
 kodowania.
 
