@@ -1,12 +1,16 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Crypt
 %define		pnam	OTP
 Summary:	Crypt::OTP Perl module - OTP encryption method implementation
 Summary(pl):	Modu³ Perla Crypt::OTP - implementacja kodowania metod± OTP
 Name:		perl-Crypt-OTP
-Version:	1.03
+Version:	2.00
 Release:	1
-License:	unknown
+License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
@@ -35,7 +39,8 @@ kodowania.
 %build
 perl Makefile.PL
 %{__make}
-%{__make} test
+
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -50,5 +55,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes
 %{perl_sitelib}/Crypt/OTP.pm
-%{perl_sitelib}/auto/Crypt/OTP
 %{_mandir}/man3/*
