@@ -3,8 +3,8 @@
 %bcond_without	tests	# Do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Crypt
-%define	pnam	OTP
+%define		pdir	Crypt
+%define		pnam	OTP
 Summary:	Crypt::OTP Perl module - OTP encryption method implementation
 Summary(pl):	Modu³ Perla Crypt::OTP - implementacja kodowania metod± OTP
 Name:		perl-Crypt-OTP
