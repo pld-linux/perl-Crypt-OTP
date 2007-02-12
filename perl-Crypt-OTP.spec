@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	OTP
 Summary:	Crypt::OTP Perl module - OTP encryption method implementation
-Summary(pl):	Modu³ Perla Crypt::OTP - implementacja kodowania metod± OTP
+Summary(pl.UTF-8):   ModuÅ‚ Perla Crypt::OTP - implementacja kodowania metodÄ… OTP
 Name:		perl-Crypt-OTP
 Version:	2.00
 Release:	3
@@ -27,12 +27,12 @@ message is XOR'ed. Encryption and decryption are performed using
 exactly the same method, and the message will decrypt correctly only
 if the same pad is used in decryption as was use in encryption.
 
-%description -l pl
+%description -l pl.UTF-8
 Metoda kodowania OTP (One Time Pad - jednorazowa tablica) jest bardzo
-prosta i niemo¿liwa do z³amania bez znajomo¶ci w³a¶ciwego pliku
-tablicy, z któr± wiadomo¶æ jest xorowana. Kodowanie i dekodowanie
-odbywa siê dok³adnie t± sam± metod±, a wiadomo¶æ mo¿e byæ odkodowana
-poprawnie tylko przy u¿yciu tej samej tablicy, która by³a u¿ywana do
+prosta i niemoÅ¼liwa do zÅ‚amania bez znajomoÅ›ci wÅ‚aÅ›ciwego pliku
+tablicy, z ktÃ³rÄ… wiadomoÅ›Ä‡ jest xorowana. Kodowanie i dekodowanie
+odbywa siÄ™ dokÅ‚adnie tÄ… samÄ… metodÄ…, a wiadomoÅ›Ä‡ moÅ¼e byÄ‡ odkodowana
+poprawnie tylko przy uÅ¼yciu tej samej tablicy, ktÃ³ra byÅ‚a uÅ¼ywana do
 kodowania.
 
 %prep
