@@ -4,7 +4,6 @@
 
 %define		pdir	Crypt
 %define		pnam	OTP
-%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt::OTP Perl module - OTP encryption method implementation
 Summary(pl.UTF-8):	Moduł Perla Crypt::OTP - implementacja kodowania metodą OTP
 Name:		perl-Crypt-OTP
